@@ -2,7 +2,7 @@ package com.example.shemajamebeli9.app
 
 import android.app.Application
 import android.content.Context
-import com.example.shemajamebeli9.data.DataStore
+import com.example.shemajamebeli9.data.DataBaseManager
 
 class CardApplication : Application(){
 
@@ -13,7 +13,7 @@ class CardApplication : Application(){
     override fun onCreate() {
         super.onCreate()
         appContext = this
-        DataStore.initDataBase(this)
+        DataBaseManager.initDataBase(this)
     }
 
 

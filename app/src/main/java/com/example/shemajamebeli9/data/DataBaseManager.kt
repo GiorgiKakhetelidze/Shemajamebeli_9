@@ -11,7 +11,7 @@ import androidx.annotation.RequiresApi
 import com.example.shemajamebeli9.app.CardApplication.Companion.appContext
 
 
-object DataStore {
+object DataBaseManager {
 
     private var dataBase: CardDb? = null
 
